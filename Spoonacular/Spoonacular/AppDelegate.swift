@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FoldingCell
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

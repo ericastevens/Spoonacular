@@ -14,9 +14,9 @@
 		3A2184B51E0075CC000144AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2184B31E0075CC000144AB /* LaunchScreen.storyboard */; };
 		3A2184C61E008171000144AB /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184C51E008171000144AB /* APIRequestManager.swift */; };
 		3A2184C91E01C47B000144AB /* CalorieBasedRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184C81E01C47B000144AB /* CalorieBasedRecipe.swift */; };
-		3A2184D41E01D142000144AB /* RecipeByCaloriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184D31E01D142000144AB /* RecipeByCaloriesCell.swift */; };
-		3A2184D61E01D2B4000144AB /* ForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184D51E01D2B4000144AB /* ForegroundView.swift */; };
-		3A2184D81E01D3FD000144AB /* RecipesByCaloriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184D71E01D3FD000144AB /* RecipesByCaloriesTableViewController.swift */; };
+		3A2184DA1E01E99A000144AB /* RecipesByCaloriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184D91E01E99A000144AB /* RecipesByCaloriesTableViewController.swift */; };
+		3A2184DE1E01EA4D000144AB /* RecipeByCaloriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184DD1E01EA4D000144AB /* RecipeByCaloriesTableViewCell.swift */; };
+		3A2184E01E01F9BD000144AB /* MealPlanNutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2184DF1E01F9BD000144AB /* MealPlanNutrients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		3A2184B61E0075CC000144AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2184C51E008171000144AB /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		3A2184C81E01C47B000144AB /* CalorieBasedRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalorieBasedRecipe.swift; sourceTree = "<group>"; };
-		3A2184D31E01D142000144AB /* RecipeByCaloriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeByCaloriesCell.swift; sourceTree = "<group>"; };
-		3A2184D51E01D2B4000144AB /* ForegroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForegroundView.swift; sourceTree = "<group>"; };
-		3A2184D71E01D3FD000144AB /* RecipesByCaloriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesByCaloriesTableViewController.swift; sourceTree = "<group>"; };
+		3A2184D91E01E99A000144AB /* RecipesByCaloriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesByCaloriesTableViewController.swift; sourceTree = "<group>"; };
+		3A2184DD1E01EA4D000144AB /* RecipeByCaloriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeByCaloriesTableViewCell.swift; sourceTree = "<group>"; };
+		3A2184DF1E01F9BD000144AB /* MealPlanNutrients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanNutrients.swift; sourceTree = "<group>"; };
 		6A717EE799EC887759AADBA8 /* Pods-Spoonacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spoonacular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spoonacular/Pods-Spoonacular.debug.xcconfig"; sourceTree = "<group>"; };
 		8C989C410BF0BC354FC76103 /* Pods_Spoonacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spoonacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B625A64675FCD8A49F256449 /* Pods-Spoonacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spoonacular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spoonacular/Pods-Spoonacular.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +81,6 @@
 		3A2184BC1E007C58000144AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3A2184D51E01D2B4000144AB /* ForegroundView.swift */,
 				3A2184AE1E0075CC000144AB /* Main.storyboard */,
 				3A2184B31E0075CC000144AB /* LaunchScreen.storyboard */,
 			);
@@ -101,8 +100,8 @@
 		3A2184C41E008051000144AB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3A2184D31E01D142000144AB /* RecipeByCaloriesCell.swift */,
-				3A2184D71E01D3FD000144AB /* RecipesByCaloriesTableViewController.swift */,
+				3A2184DD1E01EA4D000144AB /* RecipeByCaloriesTableViewCell.swift */,
+				3A2184D91E01E99A000144AB /* RecipesByCaloriesTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				3A2184C81E01C47B000144AB /* CalorieBasedRecipe.swift */,
+				3A2184DF1E01F9BD000144AB /* MealPlanNutrients.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -263,12 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2184D61E01D2B4000144AB /* ForegroundView.swift in Sources */,
+				3A2184DA1E01E99A000144AB /* RecipesByCaloriesTableViewController.swift in Sources */,
 				3A2184C91E01C47B000144AB /* CalorieBasedRecipe.swift in Sources */,
-				3A2184D81E01D3FD000144AB /* RecipesByCaloriesTableViewController.swift in Sources */,
+				3A2184E01E01F9BD000144AB /* MealPlanNutrients.swift in Sources */,
 				3A2184C61E008171000144AB /* APIRequestManager.swift in Sources */,
-				3A2184D41E01D142000144AB /* RecipeByCaloriesCell.swift in Sources */,
 				3A2184AB1E0075CC000144AB /* AppDelegate.swift in Sources */,
+				3A2184DE1E01EA4D000144AB /* RecipeByCaloriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
